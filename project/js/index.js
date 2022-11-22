@@ -19,7 +19,7 @@ if (elem.hasChildNodes) {
 //3) Встановіть в якості контента елемента з класом testParagraph наступний параграф - <p>This is a paragraph<p/>
 
 let testParagraph = document.querySelector('#testParagraph');
-testParagraph.innerHTML = "<p>This is a paragraph<p/>";
+testParagraph.textContent = "<p>This is a paragraph<p/>";
 
 //4) Отримати елементи <li>, вкладені в елемент із класом main-header і вивести їх у консоль. Кожному з елементів присвоїти новий клас nav-item.
 
